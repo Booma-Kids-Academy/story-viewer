@@ -450,5 +450,231 @@
         }
       ]
     }
+  },
+  {
+    "id": "story-exec91",
+    "generated_at": "2026-04-08T05:32:10Z",
+    "metadata": {
+      "selected_template": "The Impulse Buy",
+      "lead_character": "",
+      "catalyst_character": "",
+      "primary_location": "",
+      "emotional_engine": "",
+      "curiosity_hook": "",
+      "critic_recommendation": "approve_for_packaging",
+      "critic_scores": {
+        "opening_curiosity": 1,
+        "forward_pull": 1,
+        "emotional_truth": 1,
+        "subtle_theme": 1,
+        "arabic_read_aloud_quality": 1,
+        "ending_landing": 1
+      },
+      "revision_path": "direct_approval"
+    },
+    "story": {
+      "title_arabic": "رقائق البطولة",
+      "title_english": "The Championship Chips",
+      "story_pages": [
+        {
+          "page_number": 1,
+          "text_arabic": "طوال الأسبوع، كان طارق يحمل في جيبه كيسًا صغيرًا من القماش فيه قطع نقدية.",
+          "text_english_literal": "All week long, Tariq carried in his pocket a small cloth bag with coins in it.",
+          "illustration_note": "Tariq (the beagle/Saluki mix) walking happily with a noticeable bulge in his pocket."
+        },
+        {
+          "page_number": 2,
+          "text_arabic": "كلّما مشى، سمع صوت \"طق طق طق\" خفيفًا.",
+          "text_english_literal": "Whenever he walked, he heard a light 'tikk tikk tikk' sound.",
+          "illustration_note": "Close-up of Tariq's leg and pocket, with small musical notes or 'tikk tikk' text coming from the cloth bag."
+        },
+        {
+          "page_number": 3,
+          "text_arabic": "كان يبتسم كلّ مرة. هذه النقود لتيتا.",
+          "text_english_literal": "He smiled every time. This money was for Grandma (Teta).",
+          "illustration_note": "Tariq with a big, proud smile on his face, thinking of his Grandma."
+        },
+        {
+          "page_number": 4,
+          "text_arabic": "يوم الجمعة ستزورهم، وطارق يريد أن يشتري لها شيئًا جميلًا من بقالة عمّو حسّان.",
+          "text_english_literal": "On Friday she will visit them, and Tariq wants to buy her something beautiful from Uncle Hassan's grocery store.",
+          "illustration_note": "A thought bubble above Tariq's head showing a warm image of his Grandma and the colorful shop."
+        },
+        {
+          "page_number": 5,
+          "text_arabic": "لكن عند باب المدرسة، وقف ثلاثة أولاد يتكلّمون بصوت عالٍ.",
+          "text_english_literal": "But at the school door, three boys stood talking loudly.",
+          "illustration_note": "The school playground. Three older-looking children huddled together, gesturing excitedly."
+        },
+        {
+          "page_number": 6,
+          "text_arabic": "— جرّبتوا رقائق البطولة الجديدة؟\n— أحسن شي أكلته في حياتي!",
+          "text_english_literal": "— Did you try the new Championship Chips?\n— The best thing I've eaten in my life!",
+          "illustration_note": "The boys are very animated; one is pretending to crunch on something delicious."
+        },
+        {
+          "page_number": 7,
+          "text_arabic": "— الكيس الأخير كان عند عمّو حسّان... مش عارف إذا بقي شي.",
+          "text_english_literal": "— The last bag was at Uncle Hassan's... I don't know if any are left.",
+          "illustration_note": "One boy points toward the street where the shop is located, looking worried about the stock."
+        },
+        {
+          "page_number": 8,
+          "text_arabic": "نظر طارق إلى سامي. سامي رفع كتفيه ولم يقل شيئًا.",
+          "text_english_literal": "Tariq looked at Sami. Sami shrugged his shoulders and said nothing.",
+          "illustration_note": "Sami (the orange tabby) looks hesitant, his hood slightly up, while Tariq looks wide-eyed and alert."
+        },
+        {
+          "page_number": 9,
+          "text_arabic": "لكن طارق شعر بشيء غريب في بطنه، شيء يشبه الجوع لكنّه أسرع.",
+          "text_english_literal": "But Tariq felt something strange in his stomach, something like hunger but faster.",
+          "illustration_note": "Tariq holding his stomach, his expression shifting from happy to intense and focused."
+        },
+        {
+          "page_number": 10,
+          "text_arabic": "شيء يقول: \"لازم تجرّب قبل ما تخلص!\"",
+          "text_english_literal": "Something saying: 'You must try it before it's finished!'",
+          "illustration_note": "Tariq looking determined, his ears slightly forward, caught in the grip of a new 'want'."
+        },
+        {
+          "page_number": 11,
+          "text_arabic": "طول النهار، لم يستطع طارق أن يفكّر في شيء آخر. الكيس البرّاق. النكهة الخاصّة.",
+          "text_english_literal": "All day long, Tariq couldn't think of anything else. The shiny bag. The special flavor.",
+          "illustration_note": "Tariq sitting at his desk in class, drawing a shiny, golden potato chip bag on his notebook."
+        },
+        {
+          "page_number": 12,
+          "text_arabic": "همس لسامي في الاستراحة:\n— سامي، ماذا لو... ماذا لو ما نزلت هذه الرقائق مرّة ثانية أبدًا؟",
+          "text_english_literal": "He whispered to Sami during recess:\n— Sami, what if... what if these chips never come out again?",
+          "illustration_note": "Tariq and Sami by the playground wall. Tariq is leaning in urgently; Sami is listening with a concerned look."
+        },
+        {
+          "page_number": 13,
+          "text_arabic": "سامي فكّر قليلًا ثمّ قال بهدوء:\n— لكن... مصاري تيتا؟",
+          "text_english_literal": "Sami thought for a bit then said quietly:\n— But... Teta's money?",
+          "illustration_note": "Sami points to Tariq's pocket where the bag of coins is hidden."
+        },
+        {
+          "page_number": 14,
+          "text_arabic": "هزّ طارق رأسه بسرعة.\n— بلاقيلها شي ثاني. هذي فرصة العمر يا سامي. فرصة العمر!",
+          "text_english_literal": "Tariq shook his head quickly.\n— I'll find her something else. This is the chance of a lifetime, Sami. The chance of a lifetime!",
+          "illustration_note": "Tariq making a grand gesture with his hands, trying to convince himself as much as Sami."
+        },
+        {
+          "page_number": 15,
+          "text_arabic": "بعد المدرسة، دفع طارق باب بقالة عمّو حسّان. الجرس الصغير فوق الباب رنّ.",
+          "text_english_literal": "After school, Tariq pushed the door of Uncle Hassan's grocery. The small bell above the door rang.",
+          "illustration_note": "Entrance to the cozy shop. Tariq is entering with Sami trailing slightly behind him."
+        },
+        {
+          "page_number": 16,
+          "text_arabic": "عمّو حسّان، السلحفاة العجوز، رفع رأسه ببطء من خلف الطاولة ولم يقل شيئًا.",
+          "text_english_literal": "Uncle Hassan, the old tortoise, raised his head slowly from behind the counter and said nothing.",
+          "illustration_note": "Uncle Hassan behind his wooden counter, looking through his glasses with a calm, observant gaze."
+        },
+        {
+          "page_number": 17,
+          "text_arabic": "على الرفّ العلوي، كيس واحد فقط. كبير، لامع، مكتوب عليه بأحرف ذهبية: \"رقائق البطولة!\"",
+          "text_english_literal": "On the top shelf, only one bag. Big, shiny, written on it in golden letters: 'Championship Chips!'",
+          "illustration_note": "Low angle looking up at a very shiny, golden bag that seems to glow compared to the other snacks."
+        },
+        {
+          "page_number": 18,
+          "text_arabic": "أخرج طارق كيس القماش. فتحه. عدّ النقود مرّتين.",
+          "text_english_literal": "Tariq took out the cloth bag. He opened it. He counted the money twice.",
+          "illustration_note": "Tariq's paws carefully arranging the coins on the wooden counter; his brow is furrowed in concentration."
+        },
+        {
+          "page_number": 19,
+          "text_arabic": "نظر إلى الكيس اللامع، ثمّ إلى النقود، ثمّ إلى الكيس مرّة أخرى. وضع النقود على الطاولة.",
+          "text_english_literal": "He looked at the shiny bag, then at the money, then at the bag again. He put the money on the table.",
+          "illustration_note": "A moment of hesitation. Tariq's eyes are moving back and forth between the prize and his savings."
+        },
+        {
+          "page_number": 20,
+          "text_arabic": "عمّو حسّان نظر إلى النقود، ثمّ نظر إلى طارق. لكنّه لم يقل شيئًا. أعطاه الكيس ببطء.",
+          "text_english_literal": "Uncle Hassan looked at the money, then looked at Tariq. but he said nothing. He gave him the bag slowly.",
+          "illustration_note": "Uncle Hassan's wrinkled hand sliding the shiny bag toward Tariq while holding his gaze."
+        },
+        {
+          "page_number": 21,
+          "text_arabic": "جلس طارق وسامي على الرصيف. فتح طارق الكيس بحماس.",
+          "text_english_literal": "Tariq and Sami sat on the sidewalk. Tariq opened the bag with excitement.",
+          "illustration_note": "The two friends sitting outside the shop. A small 'puff' of air comes out as the bag opens."
+        },
+        {
+          "page_number": 22,
+          "text_arabic": "أوّل رقاقة... مقرمشة. مالحة. ثاني رقاقة... نفس الشيء.",
+          "text_english_literal": "The first chip... crunchy. Salty. The second chip... the same thing.",
+          "illustration_note": "Tariq eating with a big crunch. Sami watching him curiously."
+        },
+        {
+          "page_number": 23,
+          "text_arabic": "توقّف طارق عن المضغ.\n— سامي...\n— نعم؟\n— هل... هل طعمها عادي؟",
+          "text_english_literal": "Tariq stopped chewing.\n— Sami...\n— Yes?\n— Does it... does it taste ordinary?",
+          "illustration_note": "Tariq holds a half-eaten chip, looking disappointed. The excitement has left his face."
+        },
+        {
+          "page_number": 24,
+          "text_arabic": "سامي أكل رقاقة أخرى ببطء وقال بصدق:\n— طعمها مثل أيّ رقائق ثانية.",
+          "text_english_literal": "Sami ate another chip slowly and said honestly:\n— It tastes like any other chips.",
+          "illustration_note": "Sami chewing thoughtfully, looking at the bag which doesn't seem so special anymore."
+        },
+        {
+          "page_number": 25,
+          "text_arabic": "نظر طارق إلى الكيس اللامع بأحرفه الذهبية. الكيس كان جميلًا جدًّا. لكن ما في داخله كان... عاديًّا جدًّا.",
+          "text_english_literal": "Tariq looked at the shiny bag with its golden letters. The bag was very beautiful. But what was inside it was... very ordinary.",
+          "illustration_note": "Tariq holding the empty, crumpled shiny bag. He looks a little slumped."
+        },
+        {
+          "page_number": 26,
+          "text_arabic": "سأل سامي بهدوء:\n— وتيتا؟ ماذا ستشتري لها يوم الجمعة؟",
+          "text_english_literal": "Sami asked quietly:\n— And Teta? What will you buy for her on Friday?",
+          "illustration_note": "Sami looking at Tariq with soft eyes. Tariq is staring at his empty hands."
+        },
+        {
+          "page_number": 27,
+          "text_arabic": "لم يُجب طارق. ضمّ الكيس الفارغ بين يديه. الهواء خرج منه بصوت صغير حزين: \"فسسس.\"",
+          "text_english_literal": "Tariq didn't answer. He squeezed the empty bag between his hands. The air came out with a small sad sound: 'Fssss.'",
+          "illustration_note": "Close up of the bag being crushed; the golden letters are wrinkled and the shine is gone."
+        },
+        {
+          "page_number": 28,
+          "text_arabic": "مرّت عربة بائع الورد في الشارع. وردة حمراء صغيرة تهتزّ فوق العربة. فجأة رفع طارق رأسه.",
+          "text_english_literal": "A flower seller's cart passed in the street. A small red rose was shaking atop the cart. Suddenly Tariq raised his head.",
+          "illustration_note": "A colorful cart with various flowers passing by. One single bright red rose stands out."
+        },
+        {
+          "page_number": 29,
+          "text_arabic": "— سامي... كم معك؟\nأخرج سامي من جيبه قطعتين صغيرتين.\n— هذا كلّ شيء.",
+          "text_english_literal": "— Sami... how much do you have?\nSami took two small pieces from his pocket.\n— This is everything.",
+          "illustration_note": "Sami showing two small coins in his palm. Tariq is frantically searching his own pockets."
+        },
+        {
+          "page_number": 30,
+          "text_arabic": "وجدت طارق قطعة نقدية واحدة ناسيها في الجيب الخلفي. ركض الاثنان خلف عربة الورد.",
+          "text_english_literal": "Tariq found one coin he had forgotten in his back pocket. The two ran after the flower cart.",
+          "illustration_note": "Tariq and Sami running down the street, waving their arms to stop the flower seller."
+        },
+        {
+          "page_number": 31,
+          "text_arabic": "نظر البائع إلى القطع في كفّ طارق. ابتسم.\n— بالضبط هذا ثمنها.",
+          "text_english_literal": "The seller looked at the coins in Tariq's palm. He smiled.\n— That is exactly its price.",
+          "illustration_note": "The flower seller handing the single red rose to Tariq. The three coins are in the seller's hand."
+        },
+        {
+          "page_number": 32,
+          "text_arabic": "يوم الجمعة، فتحت تيتا الباب. طارق مدّ يده والوردة الحمراء فيها. ضمّته وقالت: \"يا قلبي.\"",
+          "text_english_literal": "On Friday, Teta opened the door. Tariq held out his hand with the red rose in it. She hugged him and said: 'My heart.'",
+          "illustration_note": "A very warm scene at the doorway. A kind older cat (Teta) hugging Tariq tightly; the rose is visible in the foreground."
+        },
+        {
+          "page_number": 33,
+          "text_arabic": "في طريق العودة، مشى طارق بجانب سامي. الجيب فارغ، لكنّ شيئًا دافئًا كان لا يزال في صدره.",
+          "text_english_literal": "On the way back, Tariq walked beside Sami. The pocket was empty, but something warm was still in his chest.",
+          "illustration_note": "Tariq and Sami walking into the sunset. Tariq is patting his flat pocket, but he is smiling peacefully."
+        }
+      ]
+    }
   }
 ]
