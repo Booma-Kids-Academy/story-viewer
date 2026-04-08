@@ -265,6 +265,94 @@ body {
   color: white;
 }
 
+.btn-icon-danger:hover {
+  background: #FEE;
+  border-color: #D33;
+  color: #D33;
+}
+
+/* ─── Confirm Dialog ─── */
+.confirm-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirm-dialog {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  padding: 28px 32px;
+  max-width: 400px;
+  width: 90%;
+}
+
+.confirm-dialog h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.confirm-dialog p {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.confirm-dialog .actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.btn-danger {
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  background: #D33;
+  color: white;
+}
+
+.btn-danger:hover { background: #B22; }
+
+.btn-cancel {
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.btn-cancel:hover { background: var(--surface-hover); }
+
+/* ─── Token Prompt ─── */
+.token-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-family: monospace;
+  margin-bottom: 8px;
+}
+
+.token-hint {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  margin-bottom: 16px;
+}
+
 /* ─── Page Viewer ─── */
 .page-viewer {
   flex: 1;
@@ -855,6 +943,7 @@ function renderStoryView() {
       <div class="story-header-actions">
         <button class="btn-icon" onclick="toggleIllustrationNotes()" title="Toggle illustration notes" id="btnIllNotes">&#128444;</button>
         <button class="btn-icon" onclick="toggleMetadata()" title="Story metadata" id="btnMeta">&#9432;</button>
+        <button class="btn-icon btn-icon-danger" onclick="deleteStory()" title="Delete story" id="btnDelete">&#128465;</button>
       </div>
     </div>
 
@@ -1125,6 +1214,128 @@ document.addEventListener('keydown', (e) => {
     toggleSpeech();
   }
 });
+
+/* ─── Delete Story ─── */
+function deleteStory() {
+  if (currentStoryIndex < 0) return;
+  const s = stories[currentStoryIndex];
+  const title = s.story.title_english || s.story.title_arabic;
+
+  const overlay = document.createElement('div');
+  overlay.className = 'confirm-overlay';
+  overlay.innerHTML = `
+    <div class="confirm-dialog">
+      <h3>Delete Story</h3>
+      <p>Remove <strong>${title}</strong> from the viewer? This can't be undone.</p>
+      <div class="actions">
+        <button class="btn-cancel" onclick="this.closest('.confirm-overlay').remove()">Cancel</button>
+        <button class="btn-danger" id="confirmDeleteBtn">Delete</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.remove(); });
+
+  document.getElementById('confirmDeleteBtn').addEventListener('click', async () => {
+    const btn = document.getElementById('confirmDeleteBtn');
+    btn.textContent = 'Deleting...';
+    btn.disabled = true;
+    try {
+      await pushDeleteToGitHub(currentStoryIndex);
+      overlay.remove();
+      stories.splice(currentStoryIndex, 1);
+      currentStoryIndex = -1;
+      currentPage = 0;
+      renderStoryList();
+      if (stories.length > 0) {
+        selectStory(0);
+      } else {
+        mainEl.innerHTML = '<div class="main-empty"><div class="icon">&#128218;</div><p>No stories yet</p></div>';
+      }
+    } catch (err) {
+      overlay.remove();
+      alert('Delete failed: ' + err.message);
+    }
+  });
+}
+
+function getGitHubToken() {
+  let token = localStorage.getItem('gh_token_booma');
+  if (token) return Promise.resolve(token);
+
+  return new Promise((resolve, reject) => {
+    const overlay = document.createElement('div');
+    overlay.className = 'confirm-overlay';
+    overlay.innerHTML = `
+      <div class="confirm-dialog">
+        <h3>GitHub Token</h3>
+        <p>To delete stories, enter a GitHub token with write access to the story-viewer repo. This is stored only in your browser.</p>
+        <input type="password" class="token-input" id="tokenInput" placeholder="ghp_... or gho_...">
+        <div class="token-hint">Create one at github.com → Settings → Developer settings → Personal access tokens</div>
+        <div class="actions">
+          <button class="btn-cancel" id="tokenCancel">Cancel</button>
+          <button class="btn-danger" style="background:var(--accent)" id="tokenSave">Save</button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+    document.getElementById('tokenInput').focus();
+    document.getElementById('tokenCancel').addEventListener('click', () => { overlay.remove(); reject(new Error('Cancelled')); });
+    document.getElementById('tokenSave').addEventListener('click', () => {
+      const val = document.getElementById('tokenInput').value.trim();
+      if (!val) return;
+      localStorage.setItem('gh_token_booma', val);
+      overlay.remove();
+      resolve(val);
+    });
+    document.getElementById('tokenInput').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') document.getElementById('tokenSave').click();
+    });
+  });
+}
+
+async function pushDeleteToGitHub(indexToRemove) {
+  const token = await getGitHubToken();
+  const apiUrl = 'https://api.github.com/repos/Booma-Kids-Academy/story-viewer/contents/stories.json';
+  const headers = {
+    'Authorization': `Bearer ${token}`,
+    'Accept': 'application/vnd.github.v3+json',
+    'User-Agent': 'booma-viewer'
+  };
+
+  const getRes = await fetch(apiUrl + '?ref=main', { headers });
+  if (!getRes.ok) {
+    if (getRes.status === 401 || getRes.status === 403) {
+      localStorage.removeItem('gh_token_booma');
+      throw new Error('Invalid token. Try deleting again to re-enter it.');
+    }
+    throw new Error('Failed to read stories: ' + getRes.status);
+  }
+
+  const data = await getRes.json();
+  const sha = data.sha;
+  const current = JSON.parse(atob(data.content));
+  current.splice(indexToRemove, 1);
+
+  const putRes = await fetch(apiUrl, {
+    method: 'PUT',
+    headers: { ...headers, 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      message: `Remove story at index ${indexToRemove}`,
+      content: btoa(unescape(encodeURIComponent(JSON.stringify(current, null, 2)))),
+      sha,
+      branch: 'main'
+    })
+  });
+
+  if (!putRes.ok) {
+    if (putRes.status === 401 || putRes.status === 403) {
+      localStorage.removeItem('gh_token_booma');
+      throw new Error('Token lacks write access. Try deleting again to re-enter it.');
+    }
+    throw new Error('Failed to push: ' + putRes.status);
+  }
+}
 
 speechSynthesis.onvoiceschanged = () => {};
 loadStories();
