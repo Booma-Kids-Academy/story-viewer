@@ -676,5 +676,231 @@
         }
       ]
     }
+  },
+  {
+    "id": "story-1775657736508",
+    "generated_at": "2026-04-08T14:15:36.508Z",
+    "metadata": {
+      "selected_template": "The Misunderstanding",
+      "lead_character": "",
+      "catalyst_character": "",
+      "primary_location": "",
+      "emotional_engine": "",
+      "curiosity_hook": "",
+      "critic_recommendation": "needs_light_polish",
+      "critic_scores": {
+        "opening_curiosity": 2,
+        "forward_pull": 2,
+        "emotional_truth": 3,
+        "subtle_theme": 3,
+        "arabic_read_aloud_quality": 2,
+        "ending_landing": 3
+      },
+      "revision_path": "light_polish"
+    },
+    "story": {
+      "title_arabic": "حفلة يوم السبت",
+      "title_english": "The Saturday Party",
+      "story_pages": [
+        {
+          "page_number": 1,
+          "text_arabic": "في استراحة الغداء، فتح سامي حقيبته وأخرج علبة طعامه.",
+          "text_english_literal": "During the lunch break, Sami opened his bag and took out his lunchbox.",
+          "illustration_note": "Sami sitting on a bench in the sunny school playground, pulling a plastic lunchbox out of his red backpack."
+        },
+        {
+          "page_number": 2,
+          "text_arabic": "كان بابا كريم قد رسم وجهًا مبتسمًا على الغطاء بقلم أزرق. ابتسم سامي قليلًا.",
+          "text_english_literal": "Baba Karim had drawn a smiling face on the lid with a blue pen. Sami smiled a little.",
+          "illustration_note": "Close up of the lunchbox lid showing a simple, hand-drawn blue smiley face. Sami's orange cat paws are holding the box."
+        },
+        {
+          "page_number": 3,
+          "text_arabic": "ثمّ سمع شيئًا غريبًا.",
+          "text_english_literal": "Then he heard something strange.",
+          "illustration_note": "Sami tilts his head, his large cat ears twitching. He looks toward a large tree in the distance."
+        },
+        {
+          "page_number": 4,
+          "text_arabic": "خلف الشجرة الكبيرة في ساحة المدرسة، كان ثلاثة من زملائه يهمسون.",
+          "text_english_literal": "Behind the big tree in the school playground, three of his classmates were whispering.",
+          "illustration_note": "In the background, three animal children are huddled together behind a thick oak tree, looking secretive."
+        },
+        {
+          "page_number": 5,
+          "text_arabic": "سمع سامي كلمة \"السبت\" وكلمة \"لا تخبروا سامي\".",
+          "text_english_literal": "Sami heard the word 'Saturday' and the words 'don't tell Sami.'",
+          "illustration_note": "Sami leans in, looking concerned. Floating speech bubbles near the tree contain the Arabic words for Saturday and Sami's name."
+        },
+        {
+          "page_number": 6,
+          "text_arabic": "ثمّ رأوه ينظر إليهم، فسكتوا فجأة وابتعدوا.",
+          "text_english_literal": "Then they saw him looking at them, so they suddenly went silent and walked away.",
+          "illustration_note": "The three classmates look startled, seeing Sami. They quickly disperse in different directions."
+        },
+        {
+          "page_number": 7,
+          "text_arabic": "وقف سامي مكانه وعلبة الطعام في يده. لماذا لا يريدون أن يعرف؟",
+          "text_english_literal": "Sami stood in his place with the lunchbox in his hand. Why don't they want him to know?",
+          "illustration_note": "Sami looks small and lonely in the middle of the playground, clutching his lunchbox to his chest."
+        },
+        {
+          "page_number": 8,
+          "text_arabic": "هل يخطّطون لشيء ممتع يوم السبت... بدونه؟",
+          "text_english_literal": "Are they planning something fun on Saturday... without him?",
+          "illustration_note": "Sami's imagination bubble: The other kids playing and eating cake while he sits alone at home."
+        },
+        {
+          "page_number": 9,
+          "text_arabic": "بدأ صوت صغير في رأسه يقول: ربّما لأنّك هادئ جدًا. ربّما لأنّك مملّ.",
+          "text_english_literal": "A small voice in his head began to say: Maybe because you are too quiet. Maybe because you are boring.",
+          "illustration_note": "Sami looking down at his reflection in a puddle, looking sad. His orange fur looks a bit flat."
+        },
+        {
+          "page_number": 10,
+          "text_arabic": "نظر إلى الوجه المبتسم على العلبة، لكنّ الوجه لم يجعله يبتسم هذه المرّة.",
+          "text_english_literal": "He looked at the smiling face on the box, but the face didn't make him smile this time.",
+          "illustration_note": "Close up of Sami looking at the blue smiley face, which now seems to mock his sadness."
+        },
+        {
+          "page_number": 11,
+          "text_arabic": "قرّر سامي أن يُثبت أنّه ليس مملًا. عاد إلى الساحة ووقف بجانب مجموعة من الأطفال.",
+          "text_english_literal": "Sami decided to prove that he isn't boring. He went back to the playground and stood next to a group of children.",
+          "illustration_note": "Sami standing tall, trying to look confident, approaching a group of classmates."
+        },
+        {
+          "page_number": 12,
+          "text_arabic": "رفع صوته أكثر من العادة: \"أنا عندي فكرة للعبة جديدة! نحن نسابق بعض ونقفز فوق الحقائب!\"",
+          "text_english_literal": "He raised his voice more than usual: 'I have an idea for a new game! We race each other and jump over bags!'",
+          "illustration_note": "Sami gesturing wildly toward a pile of backpacks. The other kids look confused."
+        },
+        {
+          "page_number": 13,
+          "text_arabic": "نظر إليه الأطفال بصمت. واحد منهم رمش مرّتين. أنزل سامي عينيه.",
+          "text_english_literal": "The children looked at him in silence. One of them blinked twice. Sami lowered his eyes.",
+          "illustration_note": "Awkward silence. The other kids are just staring. Sami's ears start to droop."
+        },
+        {
+          "page_number": 14,
+          "text_arabic": "حاول مرّة أخرى. ركض نحو الأرجوحة وقفز عليها بقوّة وصاح: \"انظروا! أنا سريع مثل الصاروخ!\"",
+          "text_english_literal": "He tried again. He ran toward the swing and jumped on it forcefully and shouted: 'Look! I am fast like a rocket!'",
+          "illustration_note": "Sami swinging very high, his red hoodie flapping behind him, trying to look brave."
+        },
+        {
+          "page_number": 15,
+          "text_arabic": "لكنّ الأرجوحة تمايلت بشكل غريب. فتمسّك بالحبل بسرعة وجلس بهدوء. لم يلتفت إليه أحد.",
+          "text_english_literal": "But the swing swayed strangely. He grabbed the rope quickly and sat quietly. No one looked at him.",
+          "illustration_note": "The swing is wonky. Sami looks scared, clutching the ropes with wide eyes. Everyone else is busy playing elsewhere."
+        },
+        {
+          "page_number": 16,
+          "text_arabic": "عندها مرّت ليان بجانبه. كانت تمشي مع زميلتين وتهمس لهما بشيء ما.",
+          "text_english_literal": "Then Layan passed by him. She was walking with two classmates and whispering something to them.",
+          "illustration_note": "Layan the gazelle walking purposefully across the playground, huddled with two friends."
+        },
+        {
+          "page_number": 17,
+          "text_arabic": "اقترب سامي خطوة، فالتفتت ليان بسرعة وقالت بصوت حادّ: \"اشش! ليس الآن يا سامي!\"",
+          "text_english_literal": "Sami took a step closer, so Layan turned quickly and said in a sharp voice: 'Shh! Not now, Sami!'",
+          "illustration_note": "Layan holding a finger to her lips, looking serious and secretive. Sami looks surprised."
+        },
+        {
+          "page_number": 18,
+          "text_arabic": "شعر سامي بحرارة في وجهه. سحب غطاء قلنسوته على رأسه وأمسك علبة طعامه بكلتا يديه.",
+          "text_english_literal": "Sami felt heat in his face. He pulled the hood of his sweatshirt over his head and held his lunchbox with both hands.",
+          "illustration_note": "Sami with his red hood up, hiding his face. He looks very small and embarrassed."
+        },
+        {
+          "page_number": 19,
+          "text_arabic": "رأى طارق يجلس عند الجدار المنخفض ويأكل بسكويتة. مشى إليه ببطء وجلس بجانبه.",
+          "text_english_literal": "He saw Tariq sitting by the low wall eating a biscuit. He walked to him slowly and sat beside him.",
+          "illustration_note": "Tariq the dog sitting on the stone wall, crumbs on his face. Sami sits down next to him, still in his hood."
+        },
+        {
+          "page_number": 20,
+          "text_arabic": "قال بصوت خافت: \"طارق... أنتم تخطّطون لشيء يوم السبت، صح؟\"",
+          "text_english_literal": "He said in a low voice: 'Tariq... you all are planning something for Saturday, right?'",
+          "illustration_note": "Sami looking sideways at Tariq. Tariq has a biscuit halfway to his mouth."
+        },
+        {
+          "page_number": 21,
+          "text_arabic": "نظر طارق إليه بعينين واسعتين. توقّف عن المضغ. ثمّ قال: \"أنا... أنا لازم أروح!\"",
+          "text_english_literal": "Tariq looked at him with wide eyes. He stopped chewing. Then he said: 'I... I have to go!'",
+          "illustration_note": "Tariq looking panicked, his eyes bulging. He looks like he's seen a ghost."
+        },
+        {
+          "page_number": 22,
+          "text_arabic": "قام طارق بسرعة وركض بعيدًا والبسكويتة لا تزال في يده. جلس سامي وحده.",
+          "text_english_literal": "Tariq got up quickly and ran away, the biscuit still in his hand. Sami sat alone.",
+          "illustration_note": "Tariq's legs are a blur as he runs away. Sami is left sitting alone on the long stone wall."
+        },
+        {
+          "page_number": 23,
+          "text_arabic": "جلس سامي تحت شجرة البلّوط الكبيرة. الجميع يضحكون ويهمسون وهو هنا، وحده.",
+          "text_english_literal": "Sami sat under the big oak tree. Everyone was laughing and whispering, and he was here, alone.",
+          "illustration_note": "Wide shot of the playground. Kids in groups, happy. Sami is a small red dot under the giant tree."
+        },
+        {
+          "page_number": 24,
+          "text_arabic": "مرّت نملة صغيرة على الأرض بجانب حذائه. حتّى النملة عندها مكان تذهب إليه.",
+          "text_english_literal": "A tiny ant passed on the ground next to his shoe. Even the ant has somewhere to go.",
+          "illustration_note": "Close up of Sami's blue sneakers and a tiny ant crawling purposefully over a twig."
+        },
+        {
+          "page_number": 25,
+          "text_arabic": "دقّ الجرس. وقف سامي ببطء. قرّر شيئًا واحدًا: لن يختبئ أكثر. سيسأل.",
+          "text_english_literal": "The bell rang. Sami stood up slowly. He decided one thing: he won't hide anymore. He will ask.",
+          "illustration_note": "Sami pulling his hood down, looking determined. The school building is in the background."
+        },
+        {
+          "page_number": 26,
+          "text_arabic": "بعد الحصّة الأخيرة، وجد سامي ليان عند باب الصفّ. قال بصوت يرتجف قليلًا: \"ليان، أنا أعرف أنّكم تخطّطون لشيء.\"",
+          "text_english_literal": "After the last class, Sami found Layan at the classroom door. He said with a slightly trembling voice: 'Layan, I know you are planning something.'",
+          "illustration_note": "Sami standing in front of Layan in the hallway. He looks nervous but brave."
+        },
+        {
+          "page_number": 27,
+          "text_arabic": "\"أنا فقط أريد أن أفهم لماذا لا تريدونني أن أعرف.\"",
+          "text_english_literal": "'I just want to understand why you don't want me to know.'",
+          "illustration_note": "Focus on Sami's face; his eyes are sincere and a bit watery."
+        },
+        {
+          "page_number": 28,
+          "text_arabic": "نظرت ليان إليه، ثمّ ضغطت على شفتيها بقوّة. قالت أخيرًا: \"لأنّها حفلة عيد ميلادك يا سامي!\"",
+          "text_english_literal": "Layan looked at him, then pressed her lips together tightly. She finally said: 'Because it's your birthday party, Sami!'",
+          "illustration_note": "Layan looks like she's about to explode with the secret. She is shouting it out now."
+        },
+        {
+          "page_number": 29,
+          "text_arabic": "\"حفلة مفاجأة! وأنت أفسدتها تقريبًا!\"",
+          "text_english_literal": "'A surprise party! And you almost ruined it!'",
+          "illustration_note": "Layan throwing her hands up in the air. Sami's jaw has dropped open."
+        },
+        {
+          "page_number": 30,
+          "text_arabic": "فتح سامي فمه ولم يخرج أيّ صوت. رأى طارق يطلّ من زاوية الممرّ.",
+          "text_english_literal": "Sami opened his mouth and no sound came out. He saw Tariq peeking from the corner of the hallway.",
+          "illustration_note": "Sami looking shocked. In the background, Tariq is peeking around a corner with a look of despair."
+        },
+        {
+          "page_number": 31,
+          "text_arabic": "ضرب طارق جبهته براحة يده: \"ليان! كان المفروض يوم السبت!\"",
+          "text_english_literal": "Tariq hit his forehead with his palm: 'Layan! It was supposed to be on Saturday!'",
+          "illustration_note": "Tariq doing a 'facepalm' gesture. Layan looks defensive."
+        },
+        {
+          "page_number": 32,
+          "text_arabic": "بدأت ضحكة صغيرة تخرج من سامي. ضحكة حقيقية. أصدقاؤه كانوا يحاولون أن يُسعدوه.",
+          "text_english_literal": "A small laugh began to come out of Sami. A real laugh. His friends were trying to make him happy.",
+          "illustration_note": "Sami clutching his stomach, laughing heartily. Layan and Tariq start to smile too."
+        },
+        {
+          "page_number": 33,
+          "text_arabic": "مشى سامي إلى البيت ونظر إلى الوجه المبتسم على علبته. هذه المرّة... ابتسم معه.",
+          "text_english_literal": "Sami walked home and looked at the smiling face on his box. This time... he smiled with it.",
+          "illustration_note": "Sami walking home in the golden sunset light, looking at the lunchbox in his hand. He has a huge, genuine smile."
+        }
+      ]
+    }
   }
 ]
