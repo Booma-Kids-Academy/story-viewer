@@ -224,5 +224,231 @@
         }
       ]
     }
+  },
+  {
+    "id": "story-exec92",
+    "generated_at": "2026-04-08T07:03:28Z",
+    "metadata": {
+      "selected_template": "The \"Two Parties\" Dilemma",
+      "lead_character": "",
+      "catalyst_character": "",
+      "primary_location": "",
+      "emotional_engine": "",
+      "curiosity_hook": "",
+      "critic_recommendation": "needs_light_polish",
+      "critic_scores": {
+        "opening_curiosity": 2,
+        "forward_pull": 2,
+        "emotional_truth": 3,
+        "subtle_theme": 3,
+        "arabic_read_aloud_quality": 3,
+        "ending_landing": 2
+      },
+      "revision_path": "light_polish"
+    },
+    "story": {
+      "title_arabic": "وَعْدان في وَقتٍ واحِد",
+      "title_english": "The Double Promise",
+      "story_pages": [
+        {
+          "page_number": 1,
+          "text_arabic": "بَدَأ كُلُّ شَيءٍ عِندَ الجِدارِ المُنخَفِضِ في ساحَةِ المَدرَسَة.",
+          "text_english_literal": "Everything started at the low wall in the school playground.",
+          "illustration_note": "A wide shot of the sun-baked playground with the low wall and a large oak tree in the background."
+        },
+        {
+          "page_number": 2,
+          "text_arabic": "حَيثُ تُتَبادَلُ الأسرارُ والوُعودُ الصَّغيرَة.",
+          "text_english_literal": "Where secrets and small promises are exchanged.",
+          "illustration_note": "A few other background children are whispering or trading snacks near the wall to establish the setting's routine."
+        },
+        {
+          "page_number": 3,
+          "text_arabic": "جاءَت نورة تَجري، شَعرُها مُبَعثَر والأرنَبُ «بَن بَن» تَحتَ ذِراعِها.",
+          "text_english_literal": "Noura came running, her hair messy and the rabbit 'Bun-Bun' under her arm.",
+          "illustration_note": "Noura (calico cat in a yellow polka-dot dress) looking energetic and determined, holding her stuffed rabbit."
+        },
+        {
+          "page_number": 4,
+          "text_arabic": "قالَت بِحَزم: «سامي، غَداً عِندي عَرضٌ أمامَ الصَّفّ. أُريدُكَ أن تَسمَعَني وَأنا أتَدَرَّب. وَعد؟»",
+          "text_english_literal": "She said firmly: 'Sami, tomorrow I have a presentation before the class. I want you to listen to me while I practice. Promise?'",
+          "illustration_note": "Noura looking up at Sami with a very serious expression, pointing at him while holding Bun-Bun."
+        },
+        {
+          "page_number": 5,
+          "text_arabic": "نَظَرَ سامي إلى عَينَيها الواسِعَتَين. لَم يَستَطِع أن يَقولَ لا.\nفَقال: «وَعد.»",
+          "text_english_literal": "Sami looked into her wide eyes. He couldn't say no. So he said: 'Promise.'",
+          "illustration_note": "Sami (orange cat in a red hoodie) smiling softly at his little sister, nodding his head."
+        },
+        {
+          "page_number": 6,
+          "text_arabic": "لَم تَمضِ خَمسُ دَقائِقَ حَتّى ظَهَرَ طارِق وَهوَ يَلهَث، قُبَّعَتُهُ الخَضراءُ مَقلوبَة.",
+          "text_english_literal": "Not five minutes passed until Tariq appeared panting, his green hat backwards.",
+          "illustration_note": "Tariq (beagle dog) running toward Sami, looking distressed and out of breath."
+        },
+        {
+          "page_number": 7,
+          "text_arabic": "قالَ بِصَوتٍ مَكسور: «سامي! بِطاقاتي ضاعَت! أظُنُّها سَقَطَت قُربَ شَجَرَةِ البَلّوط. ساعِدني غَداً بَعدَ الغَداء؟»",
+          "text_english_literal": "He said with a broken voice: 'Sami! My cards are lost! I think they fell near the oak tree. Help me tomorrow after lunch?'",
+          "illustration_note": "Tariq gesturing toward the large tree, looking very sad about his lost trading cards."
+        },
+        {
+          "page_number": 8,
+          "text_arabic": "بَلَعَ سامي ريقَهُ. بَعدَ الغَداءِ غَداً… نَفسُ الوَقتِ تَماماً.",
+          "text_english_literal": "Sami swallowed hard. Tomorrow after lunch... exactly the same time.",
+          "illustration_note": "Close-up on Sami’s face showing his 'what if' anxiety; his eyes are darting nervously."
+        },
+        {
+          "page_number": 9,
+          "text_arabic": "لَكِنَّ طارِقاً كانَ يَنظُرُ إلَيهِ بِعَينَينِ مُتَوَسِّلَتَين.\nفَسَمِعَ سامي نَفسَهُ يَقول: «طَبعاً… وَعد.»",
+          "text_english_literal": "But Tariq was looking at him with pleading eyes. So Sami heard himself say: 'Of course... promise.'",
+          "illustration_note": "Sami looking caught between his two friends, giving a hesitant thumbs-up to Tariq."
+        },
+        {
+          "page_number": 10,
+          "text_arabic": "في تِلكَ اللَّيلَة، جَلَسَ سامي على سَريرِهِ يُفَكِّر. وَعدان. وَقتٌ واحِد.",
+          "text_english_literal": "That night, Sami sat on his bed thinking. Two promises. One time.",
+          "illustration_note": "Sami in his room at night, sitting on his bed with his knees pulled up, looking worried."
+        },
+        {
+          "page_number": 11,
+          "text_arabic": "لَكِنَّهُ أقنَعَ نَفسَهُ: «سَأَبدَأُ مَعَ نورة، ثُمَّ أَركُضُ إلى طارِق، ثُمَّ أَعود. لَن يُلاحِظَ أحَد.»",
+          "text_english_literal": "But he convinced himself: 'I'll start with Noura, then run to Tariq, then return. No one will notice.'",
+          "illustration_note": "A thought bubble above Sami showing a little cartoon version of him running back and forth between Noura and Tariq."
+        },
+        {
+          "page_number": 12,
+          "text_arabic": "سَحَبَ غِطاءَ السَّريرِ فَوقَ رَأسِهِ، لَكِنَّ مَعِدَتَهُ كانَت تُؤلِمُهُ قَليلاً.",
+          "text_english_literal": "He pulled the bedsheet over his head, but his stomach hurt a little.",
+          "illustration_note": "Sami hiding under his red blanket, only his ears and eyes peeking out, looking uneasy."
+        },
+        {
+          "page_number": 13,
+          "text_arabic": "في اليَومِ التّالي، وَقَفَت نورة في زاوِيَةِ السّاحَةِ تَحمِلُ بَن بَن كَأنَّهُ مِيكروفون.",
+          "text_english_literal": "The next day, Noura stood in the corner of the yard holding Bun-Bun like a microphone.",
+          "illustration_note": "Noura standing on a small wooden crate, holding the stuffed rabbit to her mouth as if preparing for a big speech."
+        },
+        {
+          "page_number": 14,
+          "text_arabic": "قالَت: «اِبدَأ! اِسمَع!» بَدَأَت تَتَكَلَّمُ عَن أرنَبِها بِجِدِّيَّةٍ شَديدَة.",
+          "text_english_literal": "She said: 'Start! Listen!' She began to talk about her rabbit with great seriousness.",
+          "illustration_note": "Noura gesturing theatrically while Sami stands in front of her, trying to look attentive."
+        },
+        {
+          "page_number": 15,
+          "text_arabic": "أَومَأَ سامي بِسُرعَة، لَكِنَّ عَينَيهِ كانَتا تَنظُرانِ نَحوَ شَجَرَةِ البَلّوطِ البَعيدَة.",
+          "text_english_literal": "Sami nodded quickly, but his eyes were looking toward the distant oak tree.",
+          "illustration_note": "Split view: Sami nodding at Noura, but his eyes are fixed on Tariq far away across the playground."
+        },
+        {
+          "page_number": 16,
+          "text_arabic": "قالَ فَجأة: «أحسَنتِ! اِستَمِرّي… سَأَعودُ بَعدَ لَحظَة!»\nوَرَكَضَ سَريعاً.",
+          "text_english_literal": "He said suddenly: 'Well done! Continue... I'll be back in a moment!' and he ran fast.",
+          "illustration_note": "Sami sprinting away while Noura is mid-sentence, looking surprised and confused."
+        },
+        {
+          "page_number": 17,
+          "text_arabic": "عِندَ الشَّجَرَة، كانَ طارِق يَزحَفُ على رُكبَتَيهِ يُفَتِّشُ بَينَ الأوراقِ اليابِسَة.",
+          "text_english_literal": "At the tree, Tariq was crawling on his knees searching among the dry leaves.",
+          "illustration_note": "Tariq with his face close to the ground, surrounded by orange and brown leaves."
+        },
+        {
+          "page_number": 18,
+          "text_arabic": "قالَ بِحَماس: «أخيراً! تَعال، أظُنُّ واحِدَةً تَحتَ تِلكَ الصَّخرَة!»",
+          "text_english_literal": "He said excitedly: 'Finally! Come, I think one is under that rock!'",
+          "illustration_note": "Tariq pointing to a large grey rock; Sami joins him, looking over his shoulder nervously."
+        },
+        {
+          "page_number": 19,
+          "text_arabic": "نَظَرَ سامي إلى ساعَةِ المَدرَسَةِ القَديمَة. مَرَّت سِتُّ دَقائِق!",
+          "text_english_literal": "Sami looked at the old school clock. Six minutes had passed!",
+          "illustration_note": "A close-up of the school clock on the wall, and Sami's wide-eyed, panicked reaction."
+        },
+        {
+          "page_number": 20,
+          "text_arabic": "قالَ بِتَلَعثُم: «أنا… أحتاجُ ماءً! سَأَعود!» وَرَكَضَ مِن جَديد.",
+          "text_english_literal": "He said stuttering: 'I... I need water! I'll be back!' and he ran again.",
+          "illustration_note": "Sami running away from Tariq, who looks up from the ground with a puzzled expression."
+        },
+        {
+          "page_number": 21,
+          "text_arabic": "عادَ إلى نورة فَوَجَدَها واقِفَةً وَيَداها على خَصرِها.\nسَأَلَت: «أينَ ذَهَبت؟»",
+          "text_english_literal": "He returned to Noura and found her standing with her hands on her hips. She asked: 'Where did you go?'",
+          "illustration_note": "Noura looking grumpy and suspicious, staring at a breathless Sami."
+        },
+        {
+          "page_number": 22,
+          "text_arabic": "قالَ وَهوَ يَلهَث: «كُنتُ… كُنتُ أَشرَبُ ماء.»\nضَيَّقَت نورة عَينَيها.",
+          "text_english_literal": "He said panting: 'I was... I was drinking water.' Noura narrowed her eyes.",
+          "illustration_note": "Noura leaning forward, squinting at Sami as if she's investigating his story."
+        },
+        {
+          "page_number": 23,
+          "text_arabic": "رَكَضَ مَرَّةً ثالِثَة إلى طارِق. هذِهِ المَرَّة وَصَلَ وَرُكبَتاهُ تَرتَجِفان.",
+          "text_english_literal": "He ran a third time to Tariq. This time he arrived with his knees trembling.",
+          "illustration_note": "Sami looking visibly exhausted, leaning against the oak tree trunk to catch his breath."
+        },
+        {
+          "page_number": 24,
+          "text_arabic": "قالَ طارِق: «لِماذا تَنظُرُ إلى السّاعَةِ كُلَّ دَقيقَة؟»\nلَم يَجِد سامي كَلِمَة.",
+          "text_english_literal": "Tariq said: 'Why do you look at the clock every minute?' Sami couldn't find a word.",
+          "illustration_note": "Tariq standing up, looking at Sami with concern and confusion."
+        },
+        {
+          "page_number": 25,
+          "text_arabic": "رَكَضَ عائِداً لِنورة. كانَت تَعُدُّ ثَوانيَ غِيابِهِ بِصَوتٍ عالٍ:\n«…اثنانِ وَأربَعون…»",
+          "text_english_literal": "He ran back to Noura. She was counting the seconds of his absence out loud: '...forty-two...'",
+          "illustration_note": "Noura counting on her fingers, looking very annoyed, while Bun-Bun is tucked firmly under her arm."
+        },
+        {
+          "page_number": 26,
+          "text_arabic": "ثُمَّ حَدَثَ ما كانَ يَخافُهُ.\nظَهَرَت نورة فَجأةً خَلفَ شَجَرَةِ البَلّوط!",
+          "text_english_literal": "Then, what he feared happened. Noura suddenly appeared behind the oak tree!",
+          "illustration_note": "Noura has followed Sami; she pops out from behind the tree while Tariq and Sami are looking at the ground."
+        },
+        {
+          "page_number": 27,
+          "text_arabic": "قالَت: «أَنتَ هُنا! مَعَ طارِق!»\nسَألَ طارِق: «اِنتَظِر… كُنتَ مَعَ نورة أيضاً؟»",
+          "text_english_literal": "She said: 'You are here! With Tariq!' Tariq asked: 'Wait... you were with Noura too?'",
+          "illustration_note": "Sami standing frozen between Noura (on the left) and Tariq (on the right). Both look disappointed."
+        },
+        {
+          "page_number": 28,
+          "text_arabic": "مَشى سامي بِبُطءٍ نَحوَ الجِدارِ المُنخَفِض وَجَلَسَ عَلَيهِ وَحدَه.",
+          "text_english_literal": "Sami walked slowly toward the low wall and sat on it alone.",
+          "illustration_note": "Sami sitting on the wall, looking down at his feet. In the distance, Noura and Tariq are standing apart from him."
+        },
+        {
+          "page_number": 29,
+          "text_arabic": "حاوَلَ أن يَكونَ في مَكانَين، فَصارَ غائِباً عَنِ الاثنَين.",
+          "text_english_literal": "He tried to be in two places, so he ended up absent from both.",
+          "illustration_note": "A lonely shot of Sami. The playground seems quiet and the shadows are a bit longer."
+        },
+        {
+          "page_number": 30,
+          "text_arabic": "سَحَبَ قَلَنسُوَتَهُ الحَمراءَ فَوقَ رَأسِهِ. أحَسَّ بِشَيءٍ ثَقيلٍ في صَدرِه.",
+          "text_english_literal": "He pulled his red hood over his head. He felt something heavy in his chest.",
+          "illustration_note": "Sami with his hood up, hiding his face, showing he feels the shame of letting his friends down."
+        },
+        {
+          "page_number": 31,
+          "text_arabic": "أَنزَلَ القَلَنسُوَةَ وَقال: «أنا وَعَدتُكُما الاثنَين مَعاً. كُنتُ خائِفاً أن أُزعِلَكُما.»",
+          "text_english_literal": "He lowered the hood and said: 'I promised both of you together. I was afraid to upset you.'",
+          "illustration_note": "Sami standing up and walking toward his friends, looking them in the eye honestly."
+        },
+        {
+          "page_number": 32,
+          "text_arabic": "«ماذا لَو نورة تَتَدَرَّبُ هُنا، وَنَحنُ نُفَتِّشُ عَنِ البِطاقاتِ وَنَسمَعُها؟»",
+          "text_english_literal": "'What if Noura practices here, while we search for the cards and listen to her?'",
+          "illustration_note": "Sami gesturing to the space around the tree, proposing his new idea to both of them."
+        },
+        {
+          "page_number": 33,
+          "text_arabic": "نورة تَتَكَلَّم، وَطارِق يُصَفِّق، وَسامي يَمشي بَينَهُما مُبتَسِماً.",
+          "text_english_literal": "Noura speaks, Tariq claps, and Sami walks between them smiling.",
+          "illustration_note": "A warm final scene: Noura on her crate speaking, Tariq finding a card and clapping, and Sami standing happily in the middle."
+        }
+      ]
+    }
   }
 ]
